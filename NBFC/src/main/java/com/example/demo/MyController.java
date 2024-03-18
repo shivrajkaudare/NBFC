@@ -57,8 +57,6 @@ public class MyController {
 	public String Index() {
 		return "index";	
 	}
-
-	
 	@RequestMapping("/About")
 	public String About() {
 		return "About";	

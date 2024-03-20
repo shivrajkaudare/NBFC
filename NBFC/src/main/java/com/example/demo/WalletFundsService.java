@@ -7,5 +7,4 @@ public interface WalletFundsService {
 	void getwallet(Wallet w);
 	
 	List<Wallet>addwallet();
-
 }

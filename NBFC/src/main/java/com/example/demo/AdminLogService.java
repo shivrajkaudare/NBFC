@@ -10,6 +10,5 @@ public interface AdminLogService {
 	
 	void deleteadmin(int id);
 
-	Object login_check(String email, String password);
-			
+	Object login_check(String email, String password);			
 }

@@ -8,7 +8,5 @@ public interface AdminRegistrationService
      
      List<Admin>getdata();
 
-  void deleteadmin(int id);
-     
-    
+  void deleteadmin(int id);   
 }

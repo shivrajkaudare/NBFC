@@ -93,9 +93,6 @@ public class MyController {
 		return "AllLogins";	
 	}
 	
-	
-	
-		
 	@RequestMapping("/UserLogin")
 	public String UserLogin(HttpServletRequest log,ModelMap m) 
 	{

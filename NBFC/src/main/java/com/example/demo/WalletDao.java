@@ -13,8 +13,7 @@ public class WalletDao implements WalletFundsService
 	@Override
 	public void getwallet(Wallet w) {
 		
-		wr.save(w);
-		
+		wr.save(w);	
 	}
 	@Override
 	public List<Wallet> addwallet() {
